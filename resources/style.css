@@ -1,0 +1,142 @@
+body, html {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background: #00CC55;
+}
+
+h1 {
+ padding: 0px; 
+ font: 100px/1 Helvetica, Verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+ text-align: center;
+ margin-right: 120px;
+ margin-left: 120px;
+ text-decoration: none;
+ color: #331a00;
+}
+
+h2 {
+ padding: 0px; 
+ font: 50px/1 Helvetica, Verdana, sans-serif;
+ font-family: 'Source Sans Pro', sans-serif;
+ text-align: center;
+ margin-right: 140px;
+ margin-left: 140px;
+ text-decoration: none;
+ color: #ccc;
+}
+
+h3 {
+ padding: 5px; 
+ font: 40px/1 Helvetica, Verdana, sans-serif;
+ font-family: 'Source Sans Pro', sans-serif;
+ text-align: left;
+ margin-right: 600px;
+ margin-left: 0px;
+ text-decoration: none;
+ color: #ccc;
+}
+
+p {
+ padding: 0px; 
+ text-align: justify;
+ margin-right: 200px;
+ margin-left: 200px;
+ font-family: 'Source Sans Pro', sans-serif;
+ color: #331a00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+nav {
+  margin: 50px;
+  margin-right: 195px;
+  margin-left: 200px;
+}
+ 
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+ 
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+ 
+li:last-child {
+  border-right: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+li a:hover {
+  color: #6b6b47;
+}
+ 
+li.active a {
+  font-weight: bold;
+  color: #331a00;
+}
+
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+
+.image-grid {
+  margin: 1em auto;
+  padding: .5em;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.image-column {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1em;
+}
+
+.column div {
+  width: 200px;
+  height: 200px;
+  background: white;
+  margin: .5em;
+  box-shadow: 0 2px 1px rgba(0,0,0,.1);
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  padding: 20px; 
+ font: 12px/1 Helvetica, Verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+ text-align: center;
+}
